@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/haidannn"
+    android:orientation="vertical"
+    tools:context=".ConfigurationView">
+
+    <TextView
+        android:id="@+id/usernametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="・ユーザー名：名無し"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/Dungeonbtn"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/dungeonsettings" />
+
+    <ImageView
+        android:id="@+id/Charactersettingbtn"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/charactersetting" />
+
+    <ImageView
+        android:id="@+id/renamebtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/kiname" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="・選択されているキャラ"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/mymonsternametxtf"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="ちびドラ"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="#704404">
+
+        <ImageView
+            android:id="@+id/mymonsterViewf"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/chibidora" />
+    </LinearLayout>
+
+</LinearLayout>

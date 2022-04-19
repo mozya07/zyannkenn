@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/haidannn"
+    android:orientation="vertical"
+    tools:context=".DungeonSelectView">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="・ダンジョンを"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="　選択してください"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/doroidonomabtn"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/doroidoma" />
+
+    <ImageView
+        android:id="@+id/doroidonomasennseibtn"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/doroidonomasennsei" />
+
+    <ImageView
+        android:id="@+id/devilbtn"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/devil" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/returnbtn"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/returnview" />
+</LinearLayout>
